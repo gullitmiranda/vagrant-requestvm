@@ -12,8 +12,6 @@ export CDPATH=.:/vagrant:/dev:/dev/www:/www:$HOME/dev:$HOME/dev/www:/Users/gulli
 export HISTFILE="$HOME/.bash_history"
 export HISTSIZE=1000000
 export HISTCONTROL=ignoreboth:erasedups
-export GEM_HOME=$INSTALL_DIR/ruby/gems
-export GEM_PATH=$INSTALL_DIR/ruby/gems
 export CDHISTORY="/tmp/cd-$USER"
 export LESS="-REX"
 
