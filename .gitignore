@@ -1,0 +1,9 @@
+.DS_Store
+.*.sw?
+/.pow*
+/.rvmrc
+/.rbenv-version
+/bin/
+/.tags*
+Thumbs.db
+.vagrant
