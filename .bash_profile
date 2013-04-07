@@ -1,3 +1,4 @@
+source $HOME/.bash/rvm.sh
 source $HOME/.bash/user.sh
 source $HOME/.bash/general.sh
 source $HOME/.bash/prompt.sh
