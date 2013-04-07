@@ -72,6 +72,14 @@ Dados de Acesso
       SMTP: smtp://192.168.33.33:1025
       Web: http://192.168.33.33:1080
 
+
+    # Para acesso remoto no mongo é necessário se conectar através do ssh e
+    # criar o usuário "admin" com a senha "admin"
+    vagrant ssh
+    mongo
+    use admin
+    db.addUser("admin", "admin")
+
 Maintainer
 ----------
 
