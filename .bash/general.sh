@@ -5,10 +5,13 @@ alias reload="source ~/.bash_profile"
 
 export EDITOR=vim
 export VISUAL=vim
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export INSTALL_DIR="/home/vagrant/local"
+
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$INSTALL_DIR/bin:$INSTALL_DIR/ruby/gems/bin:$INSTALL_DIR/node/npm/bin"
+
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="4;33"
-export CDPATH=.:/vagrant:/dev:/dev/www:/www:$HOME/dev:$HOME/dev/www:/Users/gullitmiranda/dev
+export CDPATH=.:/vagrant:/:$HOME:$HOME/dev:/Users/gullitmiranda/dev
 export HISTFILE="$HOME/.bash_history"
 export HISTSIZE=1000000
 export HISTCONTROL=ignoreboth:erasedups
