@@ -10,7 +10,7 @@ Como usar?
 2. Instale [vagrant](http://vagrantup.com/)
 3. Adicione a requestvm a suas boxes
 
-        vagrant box add requestvm /Users/gullitmiranda/Cloud\ Drive/requestdev/boxes/requestvm.box
+        vagrant box add requestvm https://www.amazon.com/clouddrive/share?s=TP3kWbd5TYwg-G4WniM_-A
 4. Inicialize o vagrant no diretório do seu projeto
 
         vagrant init requestvm
