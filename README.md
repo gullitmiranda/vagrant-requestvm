@@ -34,7 +34,9 @@ Softwares Instalados:
       Git version 1.7.10.2 (Apple Git-33)
       ImageMagick 6.6.9-7
       VIM - Vi IMproved 7.3
-      MailCatcher v0.5.10
+      MailCatcher v0.5.11
+      ImageMagick v6.6.9-7
+      Heroku Toolbelt v2.39.0
 
     ## Linguagens ou Frameworks
       Ruby 2.0.0p0 (2013-02-24 revision 39474) [x86_64-linux]
@@ -71,14 +73,6 @@ Dados de Acesso
     ## MailCatcher
       SMTP: smtp://192.168.33.33:1025
       Web: http://192.168.33.33:1080
-
-
-    # Para acesso remoto no mongo é necessário se conectar através do ssh e
-    # criar o usuário "admin" com a senha "admin"
-    vagrant ssh
-    mongo
-    use admin
-    db.addUser("admin", "admin")
 
 Maintainer
 ----------
