@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require "json"
 
-VAGRANTFILE = File.expand_path("/vagrant/.vagrant")
+VAGRANTFILE = File.expand_path("~/Projects/.vagrant")
 USE_BUNDLER = false
 VM_ID = JSON.load(File.read(VAGRANTFILE))["active"]["default"]
 TIMEOUT = 1000 * 60
