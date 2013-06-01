@@ -10,7 +10,7 @@ Como usar?
 2. Instale [vagrant](http://vagrantup.com/)
 3. Adicione a requestvm a suas boxes
 
-        vagrant box add requestvm https://www.amazon.com/clouddrive/share?s=TP3kWbd5TYwg-G4WniM_-A
+        vagrant box add requestvm https://docs.google.com/uc?id=0B3QSQSB1aG2lRHlubHR5U2NXTzA
 4. Inicialize o vagrant no diretório do seu projeto
 
         vagrant init requestvm
@@ -31,23 +31,23 @@ Diretórios compartilhados:
 Softwares Instalados:
 -----------
     ## Ferramentas
-      Git version 1.7.10.2 (Apple Git-33)
+      Git version 1.7.9.5
       ImageMagick 6.6.9-7
       VIM - Vi IMproved 7.3
-      MailCatcher v0.5.11
-      ImageMagick v6.6.9-7
-      Heroku Toolbelt v2.39.0
+      MailCatcher v0.5.12
+      Heroku Toolbelt v2.39.0 (x86_64-linux) ruby/1.9.3
+      xclip
 
     ## Linguagens ou Frameworks
-      Ruby 2.0.0p0 (2013-02-24 revision 39474) [x86_64-linux]
+      Ruby 2.0.0p195 (2013-05-14 revision 40734) [x86_64-linux]
       Rails 3.2.13
-      Node v0.6.12
+      Node v0.10.9
       PHP 5.3.10-1ubuntu3.6 with Suhosin-Patch (cli) (built: Mar 11 2013 14:31:48)
 
     ## Bando de dados
-      MySQL 5.5.29-0ubuntu0.12.04.2 (Ubuntu)
-      PostgreSQL 9.2.1
-      MongoDB shell version: 2.4.1
+      MySQL Ver 14.14 Distrib 5.5.31, for debian-linux-gnu (x86_64) using readline 6.2
+      PostgreSQL 9.1.9
+      MongoDB shell version: 2.4.3
       Sqlite 3.7.9
 
 Dados de Acesso
