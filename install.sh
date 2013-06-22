@@ -5,7 +5,7 @@ echo "#########################################################################"
 read -p "Press [Enter] to continue..."
 
 sudo apt-get update
-sudo apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev openssl imagemagick libmagickcore-dev libmagickwand-dev
+sudo apt-get install -y git-core curl libcurl4-openssl-dev zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev openssl imagemagick libmagickcore-dev libmagickwand-dev
 
 mkdir ~/local
 
