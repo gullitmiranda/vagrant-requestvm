@@ -5,7 +5,7 @@ echo "#########################################################################"
 read -p "Press [Enter] to continue..."
 
 sudo apt-get update
-sudo apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev openssl
+sudo apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev openssl imagemagick libmagickcore-dev
 
 mkdir ~/local
 
@@ -16,6 +16,8 @@ cd ~/local/requestvm
 cp -f *.sh ~/
 cp -f .* ~/
 cp -rf .bash ~/
+
+chmod +x *.sh
 
 echo "source ~/.bash_profile" >> ~/.bashrc
 
