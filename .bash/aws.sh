@@ -15,7 +15,7 @@
 # do
 #   PATH=$i/bin:$PATH
 # done
-PATH=/usr/local/aws/elasticbeanstalk/eb/linux/python2.7:$PATH
+# PATH=/usr/local/aws/elasticbeanstalk/eb/linux/python2.7:$PATH
 # PATH=/usr/local/aws/elasticmapreduce:$PATH
 # PATH=/usr/local/aws/datapipeline:$PATH
 

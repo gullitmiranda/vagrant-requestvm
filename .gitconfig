@@ -28,8 +28,3 @@
         autosetuprebase = always
 [push]
         default = current
-[user]
-        name = Gullit Miranda
-        email = gullitmiranda@requestdev.com.br
-[core]
-        excludesfile = /home/requestdev/.gitignore
