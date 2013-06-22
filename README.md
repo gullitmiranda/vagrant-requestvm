@@ -8,7 +8,7 @@ Bash profile personalizado
 
 Para efetuar a instalação do bash personalizado execulte o seguinte comando no terminal:
 
-      $ wget -O https://raw.github.com/gullitmiranda/vagrant-requestvm/master/install.sh | bash -s
+      $ curl https://raw.github.com/gullitmiranda/vagrant-requestvm/master/install.sh | bash -s
 
 Como usar?
 -----------
