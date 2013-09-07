@@ -47,4 +47,6 @@ if [ ! -f $CDHISTORY ]; then              # Only autocd when the $CDHISTORY file
   fi
 fi
 
-source $HOME/.bash/bash_completion.sh
+if [ $(id -un) == "vagrant"]
+	source $HOME/.bash/bash_completion.sh
+fi
