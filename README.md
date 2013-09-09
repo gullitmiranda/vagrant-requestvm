@@ -1,7 +1,7 @@
 vagrant-requestvm
 ============================
 
-Vagrant Box utilizado pela [Requestdev Sistemas](http://www.requestdev.com.br/) baseado no Ubuntu Precise 64.
+Vagrant Box utilizado pela [Requestdev Sistemas](http://www.requestdev.com.br/) baseado no Ubuntu 13.04 Raring x64.
 
 Bash profile personalizado
 -----------
@@ -38,32 +38,29 @@ Diretórios compartilhados:
 Softwares Instalados:
 -----------
     ## Ferramentas
-      Git version 1.7.9.5
-      ImageMagick 6.6.9-7
+      Git version 1.8.1.2
+      ImageMagick 6.7.7-10
       VIM - Vi IMproved 7.3
       MailCatcher v0.5.12
-      Heroku Toolbelt v2.39.0 (x86_64-linux) ruby/1.9.3
       xclip
 
     ## Linguagens ou Frameworks
-      Ruby 2.0.0p195 (2013-05-14 revision 40734) [x86_64-linux]
-      Rails 3.2.13
-      Node v0.10.9
-      PHP 5.3.10-1ubuntu3.6 with Suhosin-Patch (cli) (built: Mar 11 2013 14:31:48)
+      Ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
+      Rails 4.0.0
+      Node v0.10.18
+      PHP 5.4.9-4ubuntu2.3 (cli) (built: Sep  4 2013 19:32:25)
 
     ## Bando de dados
-      MySQL Ver 14.14 Distrib 5.5.31, for debian-linux-gnu (x86_64) using readline 6.2
-      PostgreSQL 9.1.9
-      MongoDB shell version: 2.4.3
-      Sqlite 3.7.9
+      MySQL Ver 14.14 Distrib 5.5.32, for debian-linux-gnu (x86_64) using readline 6.2
+      PostgreSQL 9.2.4
+      MongoDB shell version: 2.4.6
+      Sqlite 3.7.15.2
 
 Dados de Acesso
 ----------
     ## Mongo
       host: 192.168.33.33
       porta: 27017
-      user: admin
-      senha: admin
 
     ## MySQL
       host: 192.168.33.33
