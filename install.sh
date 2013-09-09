@@ -5,7 +5,7 @@ echo "#########################################################################"
 read -p "Press [Enter] to continue..."
 
 sudo apt-get update
-sudo apt-get install -y git git-core git-flow curl libcurl4-openssl-dev zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev openssl imagemagick libmagickcore-dev libmagickwand-dev libxslt-dev libxml2-dev
+sudo apt-get install -y git git-core git-flow curl libcurl4-openssl-dev zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev openssl imagemagick libmagickcore-dev libmagickwand-dev libxslt-dev libxml2-dev xclip libsqlite3-dev sqlite3
 
 mkdir ~/local
 
