@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
   # Network
   config.vm.hostname = "requestvm"
   config.vm.network :private_network, ip: "192.168.33.33"
-  config.vm.synced_folder "./www", "/www", :extra => 'dmode=755,fmode=755'
+  config.vm.synced_folder "./www", "/www", umask: 755
 
 
   config.vm.network :forwarded_port, guest: 80, host: 80     # apache/nginx
